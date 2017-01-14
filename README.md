@@ -1,2 +1,2 @@
 # MultiplyNumbers
-My first CW app. Using Try, Catch/ Randoms/ Switch statements
+My first C# CW app. Using Try, Catch/ Randoms/ Switch statements
