@@ -1,0 +1,25 @@
+// creates new array
+// assigns the first idex as 2
+// loops 20 times
+// last index of numArray set to counter and multiplies it by 2
+// store the result from above in the next index of the numArray
+// print the result
+
+
+namespace LearningPage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numArrays = new int[21]; //creates new array
+            numArrays[0] = 2; //assigns the first idex as 2
+            for (int counter= 0; counter<=20; counter++) //loops 20 times
+            {
+                int result = numArrays[counter]*2; //last index of numArray set to counter and multiplies it by 2
+                numArrays[counter+1] = result; //store the result from above in the next index of the numArray
+                Console.WriteLine("Result stored in array {0} : Array Index {1}",result, counter); //print the result
+            }
+        }
+    }
+}
