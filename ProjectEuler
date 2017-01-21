@@ -1,0 +1,41 @@
+int numOne = 3;
+int numTwo = 5;
+int counterOne = 1;
+int resultOne;
+int sumOne;
+
+int counterTwo = 1;
+int resultTwo;
+int sumTwo;
+
+while (resultOne < 1000)
+{
+    sumOne = resultOne + sumOne;
+    resultOne = numOne * counterOne;
+    if (resultOne < 1000)
+    {
+        Console.WriteLine("Result = {0}",resultOne);
+    }
+    else
+    {
+        //Console.WriteLine(sumOne); Ch
+    }   
+    counterOne++;
+}
+Console.WriteLine();
+while (resultTwo < 1000)
+{
+    sumTwo = resultTwo + sumTwo;
+    resultTwo = numTwo * counterTwo;
+    if (resultTwo < 1000)
+    {
+        Console.WriteLine("Result = {0}",resultTwo);
+    }
+    else
+    {
+        //Console.WriteLine(sumTwo);
+    }   
+    counterTwo++;
+}
+int finalSum = sumOne + sumTwo;
+Console.WriteLine(finalSum);
